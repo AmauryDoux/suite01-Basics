@@ -22,3 +22,12 @@
 // boostedAddition([4, 4, 6, 8, 10, 12]);
 
 //  écrire votre code sous ce commentaire
+function boostedAddition(table) {
+    var result = 0;
+    for (var i = 0; i < table.length; i++) {
+        result += table[i];
+    }
+    return result;
+}
+console.log(boostedAddition([4, 5, 6]));
+console.log(boostedAddition([4, 4, 6, 8, 10, 12]));
