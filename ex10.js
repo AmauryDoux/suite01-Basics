@@ -17,4 +17,11 @@
         - une fonction "isAdult" pour tester si la personne est majeur;
 
 */
+function getPerson() {
+    var person = {firstName:"toto", lastName:"tata", age:"45"}
+    var fullName = (firstName + lastName);
+    //function(name){return this.firstName + " " + this.lastName}
+    return person;
 
+}
+console.log(getPerson());
